@@ -25,7 +25,7 @@ public class TarefaService implements ITarefaService {
 
     @Override
     public Tarefa salarTarefa(Tarefa t) {
-        return repository.save(t)
+        return repository.save(t);
     }
 
     @Override
